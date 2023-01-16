@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.background-box{
+  background-color: yellowgreen;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-background-box {
+  background-color: yellow;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-color:hsla(100, 100%, 10%, 0.5);
+  padding: 20px;
+  width: 35%;
+}
+
+.login-container {
+  background-color: hsla(100, 100%, 10%, 0.5);
+  padding: 30px;
+  width: 25%;
+  height: 400px;
+}
+
+.title {
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 30px;
+  font-size: 2.5em;
+  font-weight: bolder;
+}
+
+.input-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.input-form label {
+  color: whitesmoke;
+  margin-bottom: 7px;
+}
+
+.input-form input {
+  font-size: 1.5em;
+  padding: 0.1em 0.25em;
+  background-color: rgb(112, 112, 147);
+  border: 3px solid black;
+  outline: none;
+  border-radius: 5px;
+  color: whitesmoke;
+}
+
+.input-form input:focus {
+  border: 1px solid aqua;
+}
+
+.button {
+  padding: 10px 30px;
+  width: 100%;
+  border-radius: 5px;
+  background: hsla(201, 83%, 36%, 0.1);
+  border: 1px solid white;
+  outline: none;
+  font-size: 1.5em;
+  color: #fff;
+  font-weight: bolder;
+
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: royalblue;
+}
+
+.button:focus {
+  background-color : royalblue;
+}
+
+.back {
+  height: 100vh;
+  background-color: aqua;
+}
+.text {
+  width: 200px;
+  text-align: center;
+  margin: auto;
+}
